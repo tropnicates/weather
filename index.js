@@ -7,7 +7,7 @@ const weatherField = document.querySelector(".weather3 span");
 const searchField = document.querySelector(".searchField");
 const form = document.querySelector("form");
 
-// Adding event listen to the form
+// Adding event listener to the form
 form.addEventListener("submit", search);
 
 // Default Location
@@ -83,7 +83,7 @@ function getDayFullName(num) {
       return "Friday";
 
     case 6:
-      return "Saturdat";
+      return "Saturday";
 
     default:
       return "Don't Know";
